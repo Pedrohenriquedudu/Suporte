@@ -1,8 +1,4 @@
 import streamlit as st
-import getpass
-import pandas as pd
-import time 
-
 
 # Define as credenciais de login
 username = "GTD_B2B"
