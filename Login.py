@@ -31,7 +31,7 @@ Formulários para gerar Scripts:
     st.link_button("CARIMBO ARKÉ","https://colab.research.google.com/drive/12yVdAx7O-g5K4H_UY5_RApN4o2AIzZ-F?usp=sharing")
     with st.container():
                  st.markdown(''' 
-Firmware e IOS: :point_down:
+CONSULTA CARIMBO: :point_down:
 ''') 
     st.link_button("Repositórios IOS","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=drive_link")
 
