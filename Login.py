@@ -21,19 +21,19 @@ def login():
 
 # Página protegida
 def pagina_protegida():
-    st.title("Carimbo B2B EC/PE :sunglasses:")
+    st.title("Carimbos ESSE B2B EC/PE ::desktop_computer:")
     
     st.markdown(''' 
-Formulários para gerar Scripts:
+Formulários para gerar CARIMBOS:
 ''')   
     st.link_button("CARIMBO PE","https://colab.research.google.com/drive/14aiImv-qA5imtWNJoP9XXvUfuc4E1I0a?usp=sharing")
     st.link_button("CARIMBO EC", "https://colab.research.google.com/drive/1XXxemoXIcGC72XSWdW4pZd5AtgZYSx-H?usp=sharing")
     st.link_button("CARIMBO ARKÉ","https://colab.research.google.com/drive/12yVdAx7O-g5K4H_UY5_RApN4o2AIzZ-F?usp=sharing")
     with st.container():
                  st.markdown(''' 
-CONSULTA CARIMBO: :point_down:
+CONSULTA CODIGOS: :point_down:
 ''') 
-    st.link_button("Repositórios IOS","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=drive_link")
+    st.link_button("CODIGOS REMEDY","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=drive_link")
 
 # Confwith st.sidebar:
     with st.sidebar:
@@ -61,5 +61,3 @@ else:
         st.write("Bem-vindo, " + username)
     else:
         st.error("Credenciais inválidas. Tente novamente.")
-        # Adicione aqui o código para a parte protegida da página após o login
-        
