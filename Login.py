@@ -21,7 +21,7 @@ def login():
 
 # Página protegida
 def pagina_protegida():
-    st.title("CARIMBOS ESSE B2B >>> EC/PE/ARKÈ :desktop_computer:")
+    st.title("CARIMBOS ESSE B2B > EC/PE/ARKÈ :desktop_computer:")
     
     st.markdown(''' 
 Formulários para gerar CARIMBOS:
